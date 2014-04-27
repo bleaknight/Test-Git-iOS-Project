@@ -1,0 +1,15 @@
+//
+//  bskAppDelegate.h
+//  Git Test
+//
+//  Created by Juan Asher on 27/04/14.
+//  Copyright (c) 2014 booshaka. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface bskAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end
