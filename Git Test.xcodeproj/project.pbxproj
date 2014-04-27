@@ -21,6 +21,7 @@
 		9DA36497190D0E380038953E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA36479190D0E380038953E /* UIKit.framework */; };
 		9DA3649F190D0E380038953E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DA3649D190D0E380038953E /* InfoPlist.strings */; };
 		9DA364A1190D0E380038953E /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA364A0190D0E380038953E /* Git_TestTests.m */; };
+		9DA364AC190D1E0A0038953E /* bskTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA364AB190D1E0A0038953E /* bskTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9DA3649C190D0E380038953E /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		9DA3649E190D0E380038953E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9DA364A0190D0E380038953E /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		9DA364AA190D1E0A0038953E /* bskTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bskTest.h; sourceTree = "<group>"; };
+		9DA364AB190D1E0A0038953E /* bskTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bskTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				9DA36487190D0E380038953E /* Main.storyboard */,
 				9DA3648A190D0E380038953E /* bskViewController.h */,
 				9DA3648B190D0E380038953E /* bskViewController.m */,
+				9DA364AA190D1E0A0038953E /* bskTest.h */,
+				9DA364AB190D1E0A0038953E /* bskTest.m */,
 				9DA3648D190D0E380038953E /* Images.xcassets */,
 				9DA3647C190D0E380038953E /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA364AC190D1E0A0038953E /* bskTest.m in Sources */,
 				9DA36482190D0E380038953E /* main.m in Sources */,
 				9DA36486190D0E380038953E /* bskAppDelegate.m in Sources */,
 				9DA3648C190D0E380038953E /* bskViewController.m in Sources */,
